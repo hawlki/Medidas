@@ -18,7 +18,7 @@ namespace Medidas
             String medida = Console.ReadLine();
             Double metros = Convert.ToDouble(medida);
             Double quilometros = metros / 1000;
-            double centimetros = metros * 100;
+            Double centimetros = metros * 100;
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"A medida {metros}m é igual a: ");
             Console.WriteLine($"{quilometros}km");
